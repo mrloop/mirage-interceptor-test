@@ -1,0 +1,34 @@
+{
+  "name": "mirage-interceptor-test",
+  "version": "0.0.1",
+  "description": "Common tests for mirage interceptors",
+  "main": "index.js",
+  "repository": "https://github.com/mrloop/mirage-interceptor-test",
+  "keywords": [
+    "mirage",
+    "pretender",
+    "prototype",
+    "server",
+    "testing"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "@miragejs/pretender-node-polyfill": "^0.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^27.5.1",
+    "jest": "^27.5.1",
+    "jest-extended": "^0.11.2",
+    "mirage-msw": "https://github.com/bgantzler/mirage-msw.git",
+    "mirage-pretender": "https://github.com/mrloop/mirage-pretender.git#em-run-tests",
+    "miragejs": "~0.1.43",
+    "msw": "^0.47.3",
+    "pretender": "^3.4.7"
+  },
+  "author": "mrloop",
+  "license": "MIT"
+}
